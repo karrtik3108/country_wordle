@@ -1,9 +1,5 @@
 # Streamlit Worldle
 
-Streamlit + SQLite clone of worldle
-
-Built with ❤️ by [gerardrbentley](https://github.com/gerardrbentley)
-
 ## What's this?
 
 - `README.md`: This Document! To help you find your way around
@@ -35,42 +31,5 @@ A geography guessing game with the following rules:
     - Countries that share a border will **NOT** have 0 km `distance`
     - The maximum `distance` possible is roughly `20000 km` (two points on opposite sides of the globe)
     - The `proximity` percentage is based on the maximum `distance`
+![Screenshot (36)](https://user-images.githubusercontent.com/93999235/208177092-4bfddd5f-9586-4b26-aea2-1f8ea4c161a4.png)
 
-## Local Setup
-
-Assumes working python installation and some command line knowledge ([install python with conda guide](https://tech.gerardbentley.com/python/beginner/2022/01/29/install-python.html)).
-
-```sh
-# External users: download Files
-git clone git@github.com:gerardrbentley/streamlit_worldle.git
-
-# Go to correct directory
-cd streamlit_worldle
-
-# Create virtual environment for this project
-python -m venv venv
-
-# Activate the virtual environment
-. ./venv/bin/activate
-# .\venv\Scripts\activate for Windows
-
-# Install required Packages
-python -m pip install -r requirements.txt
-
-# Run the streamlit app
-streamlit run streamlit_app.py
-```
-
-Open your browser to [http://localhost:8501/](http://localhost:8501/) if it doesn't open automatically.
-## Deploy
-
-For the easiest experience, deploy to [Streamlit Cloud](https://streamlit.io/cloud)
-
-For other options, see [Streamilt deployment wiki](https://discuss.streamlit.io/t/streamlit-deployment-guide-wiki/5099)
-
-## Credits
-
-This package was created with Cookiecutter and the `gerardrbentley/cookiecutter-streamlit` project template.
-
-- Cookiecutter: [https://github.com/audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
-- `gerardrbentley/cookiecutter-streamlit`: [https://github.com/gerardrbentley/cookiecutter-streamlit](https://github.com/gerardrbentley/cookiecutter-streamlit)
